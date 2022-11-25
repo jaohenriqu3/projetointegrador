@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #0070c0;
+    padding: 15px; 
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    margin-right: 50px;
+} 
+
+.list{ 
+    list-style: none;
+    display: flex;
+    gap: 25px;
+} 
+
+#toogler, 
+.navbar label{ 
+    display: none;
+}  
+
+body{
+    display: flex ;
+    text-align: center;
+    align-items: center; 
+    flex-direction: column;
+}  
+
+    h1{
+        font-family: sans-serif ;
+        font-weight: bolder; 
+        }
+
+.iniciar{ 
+    background-color: #0070c0; 
+     color: white; 
+     border: none;
+     width: 50%; 
+     height: 40px; 
+     box-sizing: border-box; 
+     border-radius: 20px; 
+}
