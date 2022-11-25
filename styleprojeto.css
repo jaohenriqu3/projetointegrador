@@ -48,4 +48,14 @@ body{
      height: 40px; 
      box-sizing: border-box; 
      border-radius: 20px; 
+} 
+
+a{ 
+    background-color: #0070c0 ; 
+     color: white; 
+     border: none;
+     width: 30%; 
+     height: 40px; 
+     box-sizing: border-box; 
+     border-radius: 20px;
 }
