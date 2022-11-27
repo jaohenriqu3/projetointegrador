@@ -1,3 +1,10 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+
+}
 .navbar{
     display: flex;
     flex-wrap: wrap;
@@ -33,12 +40,13 @@ body{
     text-align: center;
     align-items: center; 
     flex-direction: column;
+    font-size: 100%;
 }  
 
-    h1{
-        font-family: sans-serif ;
-        font-weight: bolder; 
-        }
+h1{
+    font-family: sans-serif ;
+     font-weight: bolder; 
+}
 
 .iniciar{ 
     background-color: #0070c0; 
@@ -57,5 +65,5 @@ a{
      width: 30%; 
      height: 40px; 
      box-sizing: border-box; 
-     border-radius: 20px;
+     border-radius: 20px; 
 }
