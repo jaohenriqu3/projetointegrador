@@ -6,34 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Inicio CRP </title>  
     <style>  
-    h1{
-        font-family: sans-serif ;
-        font-weight: bolder; 
-        } 
+h1{
+    font-family: sans-serif ;
+    font-weight: bolder;
+    margin-left: 420px; 
+    margin-top: 5px; 
+    margin-bottom: 10px; 
+} 
 
-    button{   
+button{   
     background-color: #3d3d3d ; 
-     color: white; 
-     border: none;
-     width: 30%; 
-     height: 40px; 
-     box-sizing: border-box; 
-     border-radius: 20px; 
-    }
-    </style>
+    color: white; 
+    border: none;
+    width: 30%; 
+    height: 35px;
+    box-sizing: border-box; 
+    border-radius: 20px;
+} 
+.button{
+    margin-left: 420px;
+    margin-top: 0px;
+
+} 
+.voltar{
+    background-color: #3d3d3d ; 
+    color: white; 
+    border: none;
+    height: 35px;
+    box-sizing: border-box; 
+    border-radius: 20px; 
+}
+.raio{ 
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%; 
+  margin-top: 150px;
+} 
+p{
+    font-family: sans-serif ;
+    margin-left: 620px; 
+    margin-top: 0px;
+}
+
+</style>
 </head> 
 
 <body>
-<a href="indexprojeto.html"> 
-Voltar - Inicio  
-</a>
-    <h1> O ritmo do paciente se encontra chocavél? </h1> 
 
-<a href="choqueindex.html">
- <button> Sim </button> </a>   
-<p> Ou </p> 
-<a href="epinefrinaindex.html" class="nao"> 
-    <button> NÃO </button> 
-</a>
+   
+ <a href="indexprojeto.html"> Voltar - Inicio  </a>
+ <br> 
+
+ <div class="box"> 
+ <img src="iconreanimacao.png" alt="" height="200px" class="raio">
+ 
+ 
+ <h1> Selecione qual procedimento será seguido:  </h1> 
+ <p> (Com base no ritmo do paciente)
+ </p>
+</div>
+    <div class="button">
+        <a href="choqueindex.html">
+        <button> Desfibrilação - Aplicação </button> </a> 
+
+        <a href="epinefrinaindex.html" class="nao"> 
+        <button>Epinefrina - Aplicação </button> </a>
+ </div>
 </body>
 </html>
