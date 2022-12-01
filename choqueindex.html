@@ -4,31 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Choque </title>
+    <title> desfibrilação </title>
+
     <style>  
+
     body{ 
         font-family: sans-serif ;
-        font-weight: bolder;
+        
+    }  
+    button { 
+        color: white;
+        background-color: #3d3d3d ;
+        border: none;
+        width: 100px; 
+        height: 35px; 
+        box-sizing: border-box; 
+        border-radius: 20px; 
+        margin-left: 20px;
     } 
-    button{ 
-       
+
+    a{ 
+        color: white;
+    }  
+
+    ul{
+       font-family: sans-serif ;
+       font-weight: initial;
     }
-    </style>
+    #titulo{
+       margin-left:450px;
+       font-size: 30px;
+    } 
+
+    img{
+    margin-top: 10px;
+    margin-left: 650px;
+    margin-bottom: 0%;
+    }
+
+#img2{
+    margin-left: 20px;
+} 
+h3{ 
+    margin-left: 20px ;
+} 
+h4{ 
+    margin-left: 20px ;
+}  
+h2{ 
+    margin-left: 20px ;
+} 
+#pos{ 
+    margin-left: 20px;
+} 
+#voltar{ 
+margin-left: 5px;
+} 
+#text{
+    margin-left: 20px;
+} 
+a{
+     text-decoration: none;
+}
+</style> 
 </head>
 
 <body>
-    <img src="iconchoque.png" alt="" height="200">
-    <h1> RCP - 2 MIN (Acesso IV/VO) </h1> 
-    <h1> O ritmo se encontra chocavél? </h1>  
-    <a href=""> 
-        <button> 
-         Sim 
-        </button>
-    </a> 
-    <a href=""> 
-        <button> 
-         Não    
-        </button>
-    </a> 
+
+<div> 
+    <img src="iconchoque.png" alt="" height="150"> 
+    <h1 id="titulo"> Protocolo de aplicação (desfribrilação) </h1> 
+</div> <br> 
+
+<fieldset> 
+    <div> 
+    <h3> RCP - 2 MIN (Acesso IV/VO) </h3>  
+    <p id="text">  Importante: Obrigatrioriamente o ritmo do paciente necessita estar chocavél para aplicação da desfibrilação </p>  
+    </div> 
+</fieldset>
+
+<main> 
+    <h3> Caso o ritmo do paciente não se encontre chocavél, clique no botão abaixo: </h3> 
+<button> 
+    <a href="epinefrinaindex.html"> Epinefrina </a> 
+</button> <br> <br>
+
+    <h2> Aplicação (desfibrilação): </h2>  
+<ul> 
+    <li> Epidenefrina a cada 3 a 5 min </li> 
+    <li> Considere via aérea avançada </li>
+</ul>  
+   <h3> Carga de choque para desfibrilação (Botão Abaixo): </h3>  
+   <button> 
+    <a href="cargachoque.html"> Desfibrilador </a> 
+</button>  <br> <br>
+
+   <fieldset> 
+     <h4> Outra a verificação de ritmo do paciente deverá ser realizada, para aplicação da desfibrilação: </h4> 
+    </fieldset> 
+
+    <img src="bebespcr.png" alt="" height="200" id="img2">
+
+     <h3> Caso o ritmo não esteja chocavél, siga para a aplicação da Epidenefrina no botão abaixo: </h3> 
+     <button> 
+        <a href="epinefrinaindex.html"> Epinefrina </a> 
+    </button>  
+</main>
+
+    <h3>Caso o ritmo do paciente prossiga estável, siga o protocolo abaixo:</h3> 
+    <ul> 
+        <li> Amiodarona ou lidocaína </li> 
+        <li> Trate as causas reversíveis </li>
+    </ul>   
+
+  <h4> Após o processo de desfibrilação for finalizado, siga para o tratamento pós-PCR, para fornecer maiores condiçoões de melhoria para o paciente: </h3> 
+  
+  <button id="pos"> 
+    <a href="indexprojeto.html"> Pós - PCR </a>  
+    </button>  
+
+    <button id="voltar"> 
+        <a href="indexprojeto.html"> Voltar - Inicio </a>  
+        </button> 
 </body>
 </html>
