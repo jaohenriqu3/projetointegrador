@@ -4,47 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Epinefrina </title> 
-    <style> 
-    body{ 
-        font-family: sans-serif ;
-        font-weight: bolder; 
-    }
-    </style>
+    <title> Epinefrina </title>  
+    <style>  
+
+body{ 
+    font-family: sans-serif ;
+    font-weight: bolder; 
+}
+button{   
+    background-color: #3d3d3d ;
+    border: none;
+    width: 100px; 
+    height: 35px; 
+    box-sizing: border-box; 
+    border-radius: 20px;
+
+}
+#button1{
+    margin-left: 20px;
+}
+#button2{
+    margin-left: 20px;
+} 
+#button3{
+    margin-left: 20px;
+} 
+#hl2{
+    margin-left:  200px;
+}
+a{
+    color: white;
+    font-family: sans-serif ; 
+    text-decoration: none;
+}
+
+img{
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+ul{
+    font-family: sans-serif ;
+    font-weight: initial;
+} 
+h3{ 
+    margin-left: 20px;
+} 
+h1{
+    margin-left:450px;
+    font-size: 30px;
+} 
+h4{
+    margin-left: 20px;
+} 
+#pos{
+    margin-left: 20px;
+}
+    
+#img2{
+    margin-left: 20px; 
+    margin-bottom: 5px;
+}
+</style>
 </head>
 
 <body> 
-    <img src="epinefrinaicon.png" alt="" height="200">
-    <h1> Epinefrina imediatamente! </h1>
-    <h3> RCP - 2 MIN (Acesso IV/VO) </h3>  
+    <img src="epinefrinaicon.png" alt="" height="150" id="img"> 
 
-    <ul> 
-    <li> Acesso IV/IO </li> 
-    <n> <li> Epinefrina </n>   - a cada 3 a 5 min </li> 
-    <li> Considere via aérea avançada e capnografada </li> 
-    </ul> 
-    <h2> O ritmo se encotra chocavél? </h2>  
-    <ul> 
-        <li>  Caso o ritmo se encontrar chocavél, clique no botão abaixo:  </li>   
-    <button> 
-    <a href="choqueindex.html"> Choque </a>  
-    </button>
-    <br> <br>
-    <li> Caso o ritmo não se encontrar chocavél, siga os passos abaixo: </li> 
-    RCP a cada 2 min e trate as causas reversíveis 
-    </ul> 
-    Caso o ritmo prossiga a NÃO se encontrar chocavél, siga os passos abaixo: 
-    <br> <br> 
-    - Se não houver sinal de retorno da circulação espontânea (RCE), Execute novamente o processo listado acima, a partir da aplicação da Epinefrina a cada 3 a 5 minutos. 
-    <br> <br>
-    -  Se houver RCE, vá para a lista de verificação de cuidados pós-PCR: 
-    <br> <br> 
-    <button> 
-    <a href="qualidadercp.html"> Qualidade da PRC
-        
-        </button>
-    </a>
-        
-</body>  
+    <div class="top">
+    <h1> Protocolo de aplicação (Epinefrina) </h1>
+    </div>
+    <br>
 
+    <fieldset> 
+    <div class="rcp">
+         <h3> RCP - 2 MIN (Acesso IV/VO) </h3>  
+        <ul> 
+            <li> Acesso IV/IO </li> 
+            <n> <li> Epinefrina </n>   - a cada 3 a 5 min </li> 
+            <li> Considere via aérea avançada e capnografada </li> 
+        </ul>
+    </div> 
+</fieldset>
+
+    <main> 
+        <h3> Verifique se o ritmo do paciente se encontra chocavél: </h2>  
+        <ul> 
+            <li>  Caso o ritmo do paciente se encontre chocavél, clique no botão abaixo:  </li>   
+        </ul>
+        
+        <button id="button1"> <a href="choqueindex.html"> Choque </a>  </button> 
+        <h3> Para acessar o protocolo de tratamento medicamentoso, clique no botão abaixo: </h3> 
+        <img src="bebespcr.png" alt="" height="200" id="img2"> <br> 
+    <button id="button3"> 
+            <a href="tratamentomedicamentoso.html"> Tratamento </a> 
+        </button> 
+
+        <h3 >Caso o ritmo do paciente não se encontre chocavél, siga o procedimento abaixo:</h2>
+        <ul> 
+            <li>RCP a cada 2 min e trate as causas reversíveis. </li>   
+            <li>Se não houver sinal de retorno da circulação espontânea (RCE), Execute novamente o processo listado acima, a partir da aplicação da Epinefrina a cada 3 a 5 minutos. </li>
+            <li>Se houver RCE, vá para a lista de verificação de cuidados pós-PCR clicando no botão abaixo: </li>  
+        </ul>
+        <button id="button2"> <a href="qualidadercp.html"> Qualidade PRC  </a> </button> 
+    </main>
+    
+    <h4> Após o processo de desfibrilação for finalizado, siga para o tratamento pós-PCR, para favorecer as condiçoões de melhoria do paciente: </h3> 
+  
+        <button id="pos"> 
+          <a href="poscrp.html"> Pós - PCR </a>  
+          </button>  
+      
+          <button id="voltar"> 
+              <a href="indexprojeto.html"> Voltar - Inicio </a>  
+          </button> 
+</body> 
 </html>
